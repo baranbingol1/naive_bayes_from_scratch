@@ -26,7 +26,7 @@ def get_class_stats(dataset: pd.DataFrame) -> dict:
 
 def get_gauss_pdf(x, mean, std): return norm.pdf(x, loc=mean, scale=std)
 
-def calculate_accuracy(ground_truths, preds):
+def calculate_accuracy(ground_truths, preds) -> float:
     """
     Doğruluk oranını hesaplar ve geri döndürür.
     """
