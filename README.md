@@ -20,7 +20,8 @@ Modelin tek hiperparametresi temelde sıfıra bölüm hatasını engellemek içi
 
 Kullanımına dahil diabetes.csv veriseti üzerinde bir örnek example.py dosyasında verilmiştir.
 
-Dosyaların açıklamaları :\ 
+Dosyaların açıklamaları :
+
 bayes_utils.py : Algoritma için gerekli olan bazı gerekli fonksiyonlar bulunur.\
 naive_bayes.py : Algoritmanın ana implemantasyonunu(predict fonksiyonu) ve veri seti üzerinde kullanmak için high-level iki fonksiyon içerir(train ve eval).\
 diabetes.csv : örnek veri seti.\
