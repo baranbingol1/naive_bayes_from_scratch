@@ -10,7 +10,7 @@ val_data = data.drop(train_data.index)
 
 class_stats = train(train_data)
 
-acc = eval(class_stats, val_data, 1e-10)
+acc = eval(class_stats, val_data, var_smoothing=1e-10)
 print(f"Accuracy : {acc}") # Accuracy : 0.7662337662337663
 
 acc = eval(class_stats, val_data, var_smoothing=1e-5)
