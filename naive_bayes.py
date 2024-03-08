@@ -22,7 +22,7 @@ def predict(instance: ndarray, class_stats: dict, var_smoothing=1e-9):
     return max(probs, key=probs.get)
 
 
-def train(train_data) -> dict: 
+def train(train_data: DataFrame) -> dict: 
     """
     Naive bayes için labelların istatistikleri toplar yani modeli birnevi eğitir.
     """
