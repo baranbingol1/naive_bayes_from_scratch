@@ -7,7 +7,7 @@ Kullanım :
 ```python 
 from naive_bayes import train, eval
 
-# train_data ve val_data bir pandas dataframe'i olmalıdır ve son sütunlarında label sütunu bulunmalıdır. Labellar 0 ve 1 gibi nümerik değerler olmalıdır. Algoritma binary veya multiclass prediction yapabilir.
+# train_data ve val_data bir pandas dataframe'i olmalıdır ve son sütunlarında label sütunu bulunmalıdır. Labellar 0 ve 1 gibi nümerik değerler veya string olabilir. Algoritma binary veya multiclass prediction yapabilir.
 train_data = pd.read_csv("train.csv")
 val_data = pd.read_csv("val.csv")
 
