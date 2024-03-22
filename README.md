@@ -18,7 +18,7 @@ print(f"Doğruluk oranı: {acc}")
 
 Modelin tek hiperparametresi temelde sıfıra bölüm hatasını engellemek için kullanılan var_smoothing değeridir. Default değer genel olarak iyi çalışmaktadır ve 1e-7, 1e-10 gibi diğer düşük değerler modelin performansına genelde bir etki etmemektedir ancak büyük değerler(1, 10 gibi) modelin performansını önemli ölçüde düşürebilir.
 
-Kütüphanenin kullanımına dahil daha detaylı bir örnek diabetes.csv veriseti üzerinde [example_nb](https://github.com/baranbingol1/naive_bayes_from_scratch/blob/main/example_nb.ipynb) dosyasında verilmiştir.
+Kütüphanenin kullanımına dahil daha detaylı bir örnek diabetes.csv veriseti üzerinde [example_nb](https://github.com/baranbingol1/naive_bayes_from_scratch/blob/main/example/example_nb.ipynb) dosyasında verilmiştir.
 
 Dosyaların açıklamaları :
 
